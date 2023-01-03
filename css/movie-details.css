@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.tag {
+  background-color: #f7b731;
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 0 4px 4px 0;
+}
+
+#movie-details {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+#movie-details {
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+#movie-details:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+#movie-poster {
+  width: 300px;
+  height: 450px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+#movie-title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+#movie-tagline {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#movie-overview {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#movie-rating {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.rating-unit.full {
+  background-color: #f7b731;
+}
+
+.rating-unit.empty {
+  background-color: #ccc;
+}
+
+#movie-details-list {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+#movie-details-list li {
+  margin-bottom: 8px;
+}
+
+#movie-details-list li span {
+  color: #666;
+  font-weight: 500;
+}

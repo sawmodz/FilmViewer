@@ -1,0 +1,88 @@
+h1 {
+  text-align: center;
+}
+
+#search-form {
+  border-radius: 4px;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #fff;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#movies div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+
+#movies div:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#movies img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+#pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#pagination button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 10px;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  width: 40px;
+}
+
+#pagination button:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+#pagination .current {
+  font-weight: bold;
+}
+
+#search-form {
+  background-color: #333;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
